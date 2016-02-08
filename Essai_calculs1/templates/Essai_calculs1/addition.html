@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Addition</title>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+
+
+    </script>
+    <script type="text/javascript" async
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+</head>
+<body>
+<h1>Voici un lancé aléatoire d'un à six faces</h1>
+
+<h2> Bonjour
+    {% if sexe == "Femme" %}
+        Madame
+    {% else %}
+        Monsieur
+    {% endif %} !
+</h2>
+
+
+<p>Le résultat est : <strong> {{ D }} </strong></p>
+
+<h1>Essai de texte mathématique</h1>
+
+$\frac{1}{ {{ D }} }$<p>
+    $\begin{array}{|cc|} a & b \\ c & c \end{array}$
+<p>
+    $\begin{equation} E = mc^2 \end{equation}$
+<p>
+
+    $\begin{equation}
+    \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+    \label{eq:sample}
+    \end{equation}$
+<p>
+
+<h1>Essai de développement avec SymPy</h1>
+
+${{ fact }}={{ dev }}$ <p>
+
+<h1>Essai de dérivation avec SymPy</h1>
+
+La dérivée de la fonction $f : x \mapsto e^{x^{{ D }}}$ est $f' : x \mapsto {{ derivee }} $
+
+<h1>Essai de couleurs</h1>
+
+Les couleurs de l'arc-en-ciel sont :
+
+<ul>
+    {% for code, nom in couleurs.items %}
+        <li style="color:#{{ code }}">{{ nom }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
