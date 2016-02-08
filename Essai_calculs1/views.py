@@ -5,5 +5,5 @@ from django.http import HttpResponse
 def home(request):
     """ Exemple de page HTML, non valide pour que l'exemple soit concis """
     text = """<h1>Bienvenue sur mon blog !</h1>
-              <p>Les crêpes bretonne ça tue des mouettesssssss en plein vol !</p>"""
+              <p>Les crêpes bretonne ça tue des mouettes en plein vol !</p>"""
     return HttpResponse(text)
