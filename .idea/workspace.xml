@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9b95710-0d1e-4bad-8e81-003e4591d30e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Calculator/static/Calculator/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/base_site.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LesMathsDuYeti.iml" afterPath="$PROJECT_DIR$/.idea/LesMathsDuYeti.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculator/admin.py" afterPath="$PROJECT_DIR$/Calculator/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculator/models.py" afterPath="$PROJECT_DIR$/Calculator/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculator/templates/Calculator/index.html" afterPath="$PROJECT_DIR$/Calculator/templates/Calculator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculator/tests.py" afterPath="$PROJECT_DIR$/Calculator/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculator/views.py" afterPath="$PROJECT_DIR$/Calculator/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LesMathsDuYeti/settings.py" afterPath="$PROJECT_DIR$/LesMathsDuYeti/settings.py" />
     </list>
     <ignored path="LesMathsDuYeti.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -641,7 +630,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455570421555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changement de base de donnée : PostGreSQL">
+      <created>1455647331868</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1455647331868</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -658,6 +653,7 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152762" sideWeight="0.5042644" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33044422" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.49452955" order="10" side_tool="false" content_ui="tabs" />
@@ -671,7 +667,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16471216" sideWeight="0.50812566" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -722,7 +717,8 @@
     <MESSAGE value="Latex + Aléatoire + Sympy" />
     <MESSAGE value="Reset du projet &#10;Nouvelle app : Calculator&#10;Models : Question - Choicce&#10;Documentation Django jusqu'à la fin de la partie 2" />
     <MESSAGE value="Formulaire de vote, affichage du résultat, vues génériques.&#10;Documentation Django jusqu'à la fin de la partie 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulaire de vote, affichage du résultat, vues génériques.&#10;Documentation Django jusqu'à la fin de la partie 4" />
+    <MESSAGE value="Changement de base de donnée : PostGreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changement de base de donnée : PostGreSQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
