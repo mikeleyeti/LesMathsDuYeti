@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '553s(!wn#yeqek5!iqj)u&358k0!f7u0&(e5@pavgo)=ozc+4)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.lesmathsduyeti.fr','.lesmathsduyeti.fr']
 
