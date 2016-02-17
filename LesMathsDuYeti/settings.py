@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '553s(!wn#yeqek5!iqj)u&358k0!f7u0&(e5@pavgo)=ozc+4)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.lesmathsduyeti.fr','.lesmathsduyeti.fr']
 
@@ -90,6 +90,8 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 AUTH_PASSWORD_VALIDATORS = [
     {
