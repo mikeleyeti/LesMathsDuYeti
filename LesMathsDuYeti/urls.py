@@ -20,4 +20,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^Calculator/', include('Calculator.urls')),
+    url(r'^Maths/', include('Maths.urls')),
 ]
