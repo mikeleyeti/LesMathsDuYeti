@@ -12,8 +12,17 @@
 </head>
 <body>
 <h1> Ceci est un page dont plusieurs éléments sont générés aléatoirement. </h1>
-<p> Le lancé de dé a obtenu le résultat : {{dé}} </p>
+<p><button id="refresh" onclick="document.location.reload(false)"> Relancer le dé  </button>
+ Le lancé de dé a obtenu le résultat : {{dé}} </p>
 <P> On souhaite développer : ${{ expression_de_départ }}$ </P>
 <p> Le résultat est  $${{ résultat }}$$  </p>
+
+<h2>Développement de $(a+b)^n$ </h2>
+<ul>
+      {% for i,dev in liste.items %}
+      <li> $(a+b)^{ {{ i }} } = {{ dev }}$ </li>
+      {% endfor %}
+</ul>
+
 </body>
 </html>
