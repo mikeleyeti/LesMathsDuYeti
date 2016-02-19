@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Calculator',
     'Maths',
+    'FCPE_Dons',
 ]
 
 MIDDLEWARE_CLASSES = [
