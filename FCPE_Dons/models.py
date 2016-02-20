@@ -44,7 +44,7 @@ class Don(models.Model):
     cp_du_contact = models.PositiveIntegerField(validators=[MaxValueValidator(99999)], blank=False,verbose_name='Code Postal')
     ville_contact = models.CharField(max_length=50, blank=False,verbose_name='Ville')
     tel_du_contact = models.CharField(max_length=20, blank=True,verbose_name='Téléphone du contact (Facultatif)')
-    email_du_contact = models.EmailField(max_length=254, blank=True,verbose_name='E-mail du contact (Facultatif)')
+    email_du_contact = models.EmailField(max_length=254, blank=True,verbose_name='E-mail du contact (Facultatif )')
     def __str__(self):
         """
         Cette méthode que nous définirons dans tous les modèles
