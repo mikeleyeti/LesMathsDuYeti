@@ -16,11 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from trombinoscoop.views import welcome,login,register,index
+from Interrogator.views import Interrogator
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^welcome/', welcome),
     url(r'^login/', login),
     url(r'^register/', register),
-    url(r'^', index)
+    # url(r'^', index),  #Pour le style Bootstrap
+    url(r'^Interrogator/', Interrogator),
 ]
