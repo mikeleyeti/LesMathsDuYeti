@@ -1,4 +1,4 @@
-"""lesmathsduyeti URL Configuration
+"""LesMathsDuYeti URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
@@ -13,16 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
-from trombinoscoop.views import welcome,login,register,index
-from Interrogator.views import Interrogator
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^welcome/', welcome),
-    url(r'^login/', login),
-    url(r'^register/', register),
-    # url(r'^', index),  #Pour le style Bootstrap
-    url(r'^Interrogator/', Interrogator),
+    url(r'^Calculator/', include('Calculator.urls')),
+    url(r'^Maths/', include('Maths.urls')),
 ]
